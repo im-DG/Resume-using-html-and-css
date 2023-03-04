@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-sec {
+
+    background-color: rgb(241, 235, 235);
+    border: 2px solid rgb(143, 139, 139);
+    height: 1000px;
+    width: 840px;
+    margin: 25px auto;
+    box-shadow: 5px 5px 20px 0.5px rgb(176, 173, 173);
+    padding:20px 10px;
+}
+
+.main {
+
+    display: flex;
+    width: 100%;
+    padding-left:5px;
+
+    border-radius: 8px;
+    height: 200px;
+    background-color: rgb(167, 198, 198);
+    /* padding-top: 20px; */
+}
+
+.intro {
+    height: 100%;
+    width: 36%;
+    /* background-color: peru; */
+    /* border: 2px solid green; */
+}
+
+.intro h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.photo {
+    width: 30%;
+    height: 100%;
+    /* background-color:lemonchiffon; */
+    /* border: 2px solid yellow; */
+}
+
+.photo img {
+    margin-top: 5px;
+    margin-left: 30px;
+    border: 2px solid gray;
+    width: 75%;
+    height: 95%;
+    border-radius: 100%;
+
+}
+
+.address {
+    width: 33.3%;
+    height: 100%;
+    /* background-color: brown; */
+    /* border: 2px solid orchid; */
+}
+
+.address a {
+    color: black;
+    margin-left: 50px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.address a i {
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.fa-solid.fa-mobile {
+    margin-left: 80px;
+}
+
+.fa-sharp.fa-solid.fa-location-dot {
+    margin-left: 95px;
+}
+
+.fa-brands.fa-linkedin {
+    margin-left: 137px;
+}
+
+.fa-brands.fa-square-github {
+    margin-left: 141px;
+}
+
+.address-div {
+    margin-top: 17px;
+
+}
+
+hr {
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+/* -------------------------------------- */
+/* body start from here  */
+.body-container{
+    display: flex;
+    height:77%;
+    width: 100%;
+    margin-top:10px;
+    /* background-color: rgb(60, 144, 217); */
+    
+}
+/* -------------------------------left container start from here */
+.left-container{
+width: 50%;
+background-color: rgb(209, 205, 205);
+border-radius: 8px 0px 0px 8px;
+height: 100%;
+}
+.heading{
+    font-size: 20px;
+    margin: 5px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading-line{
+width: 50%;
+margin-left: 10px;
+margin-top: -7px;
+}
+.edu-list{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+.colleges{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.percent1{
+position: absolute;
+margin-left: 22%;
+margin-top: -25px;
+}
+.hard-skill{
+margin-top: 20px;
+}
+.skill-underline{
+width: 24%;
+}
+.skills{
+    margin:10px 20px;
+
+}
+.strength-underline{
+width: 20%;
+}
+
+
+/* --------------------------
+right container start from here */
+.right-container{
+    width: 50%;
+    background-color: rgb(175, 145, 150);
+    border-radius: 0px 8px 8px 0px;
+    height: 100%;
+
+}
+.roles{
+    margin-left: 20px;
+    font-size: 13px;
+}
+.date{
+    position: absolute;
+margin-left: 18%;
+margin-top: -25px;
+}
+.certificate-underline{
+    width: 25%;
+}
